@@ -1,5 +1,13 @@
-<h1>login test</h1>
-{%extend 'index.html'%}
+{%extends 'base.html'%}
 {% block content %}
+    <div class="centerdiv" >
+    <form action="{{ url_for('login')}}" method="POST">
+        <label for="Name">Name</label>
+        <input type="text" placeholder="Your Username" name="name " required>
+        <label for="E-mail">E-mail</label>
+        <input type="email" placeholder="Your E-mail" name="mail " required>
+        <input type="submit" value="login">
+    </div>
+    </form>
 
 {% endblock content %}

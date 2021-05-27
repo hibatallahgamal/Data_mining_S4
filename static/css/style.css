@@ -1,10 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 body {
-   width: 100%;
-   height:100vh;
-   background-color: plum;
-   color: purple;
-}
+    width: 100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: plum;
+    color: purple;
+ }
+ .centerdiv{
+     width:100%;
+     height: 250px;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+     border: 2px solid purple;
+ }
+ input{
+     margin: 2px;
+     padding: 10px;
+     border-radius: 7px;
+ }
+ .game{
+ 
+     width: 400px;
+     height: 500px;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+     border: 2px solid purple;
+ }
+ .img{
+     
+     width: 250px;
+     height: 300px;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+     border: 2px solid purple;
+ 
+ }
+ 
+footer{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+ }
+ h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+
+ p{
+    
+     color: wheat;
+ }

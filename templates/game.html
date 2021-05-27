@@ -1,5 +1,18 @@
-<h1>game test</h1>
-{%extend 'index.html'%}
+
+{%extends 'base.html'%}
 {% block content %}
+
+
+<div class="game">
+    
+    <form action="" method="POST">
+        <div class="img"><img src="" alt=""></div>
+    <input type="submit" value="new game" id="start">
+    <input type="submit" value="roll it " id="roll">
+    <input type="submit" value="logout" id="out">
+    
+    
+    </form>
+</div>
 
 {% endblock content %}
