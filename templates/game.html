@@ -6,11 +6,18 @@
 <div class="game">
     
     <form action="" method="POST">
-        <div class="img"><img src="" alt=""></div>
-    <input type="submit" value="new game" id="start">
-    <input type="submit" value="roll it " id="roll">
-    <input type="submit" value="logout" id="out">
-    
+
+     <h2>Player:Hiba</h2> 
+
+        <div class="img">
+            <img src="{{url_for('static',filename='images/dice-0.png')}}" alt="">
+        </div>
+        <div class="btn">
+            <button id="newgame">New Game</button>
+            <button id="roll">Roll ite</button>
+            <button id="out">Out</button>
+        </div>
+        
     
     </form>
 </div>
